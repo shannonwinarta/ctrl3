@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games - Christmas Vibes</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1e1e2f;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2a2a3c;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #ff6363;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    header nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      color: #ff6363;
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .game-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    .game-card {
+      background-color: #2a2a3c;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .game-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #64ffda;
+    }
+
+    .game-card iframe {
+      width: 100%;
+      height: 200px;
+      border: 2px solid #64ffda;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .game-card p {
+      margin: 1rem 0;
+    }
+
+    footer {
+      background-color: #2a2a3c;
+      color: #ffffff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Christmas Games 🕹️</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="games.html">Games</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Enjoy These Festive Games! 🎄❄️</h2>
+    <div class="game-list">
+      <!-- Game 1 -->
+      <div class="game-card">
+        <h2>Santa Tracker by Google</h2>
+        <iframe
+          src="https://santatracker.google.com/"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+        <p>Explore, play, and learn with Santa's elves all December long!</p>
+        <a href="https://santatracker.google.com/" target="_blank">Play Full Screen</a>
+      </div>
+
+      <!-- Game 2 -->
+      <div class="game-card">
+        <h2>Christmas Jigsaw Puzzle</h2>
+        <iframe
+          src="https://www.primarygames.com/puzzles/jigsaw/christmas/"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+        <p>Put the jigsaw puzzle together to reveal a picture of Santa Claus under a Christmas Tree.</p>
+        <a href="https://www.primarygames.com/puzzles/jigsaw/christmas/" target="_blank">Play Full Screen</a>
+
+      </div>
+
+      <!-- Game 3 -->
+      <div class="game-card">
+        <h2>KickFlip Santa</h2>
+        <iframe
+          src="https://poki.com/id/g/kickflip-santa"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+        <p>Play as a skateboarding Santa Claus and deliver presents to kids while pulling off tricks and grinds!</p>
+        <a href="https://poki.com/id/g/kickflip-santa" target="_blank">Play Full Screen</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 CTRL + 3. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
